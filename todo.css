@@ -85,3 +85,6 @@ input{
     background: lime;
     color: aquamarine;
 }
+.delete{
+    display: none;
+}
