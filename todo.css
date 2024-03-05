@@ -83,7 +83,7 @@ input{
 }
 .done{
     background: lime;
-    color: aquamarine;
+    color: aquamarine !important;
 }
 .delete{
     display: none;
