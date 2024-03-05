@@ -1,90 +1,98 @@
-body{
-background:wheat ;
-text-align: center;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body {
+    background: wheat;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0; 
 }
-.intro{
-    margin: 30px 0px;
+
+.intro {
+    margin: 30px 0; 
     font-weight: bold;
 }
-h1{
+
+h1 {
     color: palevioletred;
     text-transform: uppercase;
     font-weight: 800;
+    margin-top: 0; 
+}
 
-}
-p{
+p {
     font-weight: 800;
+    margin-bottom: 0; 
 }
-#first{
+
+#first {
     margin-top: 10px;
     color: blueviolet;
 }
-#second{
+
+#second {
     color: limegreen;
 }
-#third{
+
+#third {
     color: blue;
     margin-bottom: 30px;
 }
-#enter{
+
+#enter {
     border: none;
     padding: 5px 15px;
     border-radius: 5px;
     background-color: aqua;
-    transition: all 0,75s ease-in-out;
-    -webkit-transition: all 0.75s ease;
-    -moz-transition: all 0.7s ease;
-    ms-transition:all 0.75s ease;
-    -o-transition: all 0.75s ease;
+    transition: all 0.75s ease; 
     font-weight: normal;
 }
-#enter:hover{
+
+#enter:hover {
     background-color: blueviolet;
     color: antiquewhite;
 }
-ul{
+
+ul {
     text-align: left;
     margin-top: 20px;
+    padding-left: 0; 
 }
-li{
+
+li {
     list-style: none;
     padding: 10px 20px;
-    color: aliceblue ;
-    text-transform:capitalize ;
+    color: aliceblue;
+    text-transform: capitalize;
     font-weight: 600;
     border-radius: 5px;
-    margin-bottom:10px ;
+    margin-bottom: 10px;
     background: aquamarine;
     transition: all 0.75s ease;
-    -webkit-transition: all 0.75s ease;
-    -moz-transition: all 0.7s ease;
-    ms-transition:all 0.75s ease;
-    -o-transition: all 0.75s ease;
-
 }
-li:hover{
+
+li:hover {
     background: blueviolet;
+}
 
-}
-li > button{
+li > button {
     font-weight: normal;
-background: none;
-border: none;
-float: right;
-color: blue;
-font-weight: 800;
+    background: none;
+    border: none;
+    float: right;
+    color: blue;
+    font-weight: 800;
 }
-input{
+
+input {
     border-radius: 5px;
-    min-height: 85%;
+    min-height: 35px; 
     padding: 5px;
     border: none;
 }
-.done{
+
+.done {
     background: lime;
     color: aquamarine !important;
 }
-.delete{
+
+.delete {
     display: none;
 }
