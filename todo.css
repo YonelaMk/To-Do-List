@@ -37,18 +37,21 @@ p {
 }
 
 #enter {
+    display: inline-block; 
     border: none;
-    padding: 5px 15px;
+    padding: 10px 20px; 
     border-radius: 5px;
-    background-color: aqua;
-    transition: all 0.75s ease; 
+    background-color: whitesmoke;
+    transition: all 0.75s ease;
     font-weight: normal;
+    cursor: pointer; 
 }
 
 #enter:hover {
     background-color: blueviolet;
     color: antiquewhite;
 }
+
 
 ul {
     text-align: left;
